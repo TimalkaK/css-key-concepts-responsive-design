@@ -37,6 +37,7 @@ img {
 
 .about-para{
     font-size: 1rem;
+    visibility: hidden;
 }
 
 .cat-name{
@@ -52,4 +53,80 @@ img {
 
 .birth-year{
     font-size: 1rem;
+}
+
+@media only screen and (min-width: 700px) {
+body {
+    background-color: var(--camel);
+}
+
+.main-header{
+    font-size: 3.25rem;
+}
+
+.second-header{
+    font-size: 1.5rem;
+}
+
+.about-para{
+    font-size: 1.5rem;
+    visibility: visible;
+}
+
+.cat-name{
+    font-size: 1.5rem;
+}
+.species{
+    font-size: 1.5rem;
+}
+
+.fave-foods{
+    font-size: 1.5rem;
+}
+
+.birth-year{
+    font-size: 1.5rem;
+}
+}
+
+
+@media only screen and (min-width: 1000px) {
+    body {
+        background-color: var(--teal);
+    }
+    
+    .main-header{
+        font-size: 4.25rem;
+    }
+    
+    .second-header{
+        font-size: 2.5rem;
+    }
+    
+    .about-para{
+        font-size: 2rem;
+        visibility: visible;
+    }
+    
+    .cat-name{
+        font-size: 2rem;
+    }
+    .species{
+        font-size: 2rem;
+    }
+    
+    .fave-foods{
+        font-size: 1.75rem;
+    }
+    
+    .birth-year{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--dark);
+        color:var(--light);
+    }
 }
