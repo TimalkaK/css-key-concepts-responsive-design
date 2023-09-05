@@ -24,8 +24,32 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: center;
+    align-content: center;   
+}
 
+.main-header{
+    font-size: 2.25rem;
+}
 
-    
+.second-header{
+    font-size: 1.5rem;
+}
+
+.about-para{
+    font-size: 1rem;
+}
+
+.cat-name{
+    font-size: 1rem;
+}
+.species{
+    font-size: 1rem;
+}
+
+.fave-foods{
+    font-size: 0.75rem;
+}
+
+.birth-year{
+    font-size: 1rem;
 }
